@@ -10,3 +10,5 @@ const totalPrice = add(item1Price,item2Price);
 const priceAfterApplyCoupon = subtract(totalPrice,coupon);
 
 $("body").text(priceAfterApplyCoupon);
+
+document.querySelector('body').innerText = "Hello webpack"
